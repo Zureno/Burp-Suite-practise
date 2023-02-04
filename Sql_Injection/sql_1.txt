@@ -1,1 +1,1 @@
-' OR 1=1--'
+' OR 1=1--' "vulnerability in categorry field, reveals all the categories"
