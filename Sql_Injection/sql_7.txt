@@ -1,0 +1,3 @@
+'+UNION+SELECT+'abc','def'+FROM+dual--
+
+'+UNION+SELECT+BANNER,+NULL+FROM+v$version--
